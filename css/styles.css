@@ -1,0 +1,98 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #212121;
+    background-color: #e5e5e5;
+}
+.head {
+    display: flex;
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+
+    background: #ffffff;
+}
+.logo {
+    /* WebStudio */
+    width: 145px;
+    height: 31px;
+    top: 24px;
+    padding-left: 215px;
+
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+}
+.logo-fcolor {
+    color: #2196f3;
+}
+.logo-scolor {
+    color: #212121;
+}
+a {
+    text-decoration: none;
+}
+nav {
+    width: 254px;
+    height: 16px;
+    top: 32px;
+    padding-left: 453px;
+}
+nav > ul > li {
+    
+    display: inline-grid;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    
+    color: #212121;
+}
+.main-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+
+    background: #2f303a;
+}
+
+.main-button {
+    width: 200px;
+    height: 50px;
+    top: 430px;
+    margin-left: 700px;
+    background: #2196f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+.text-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+}
+h1 {
+    width: 696px;
+    height: 120px;
+    padding-left: 452px;
+    top: 280px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: #ffffff;
+}
