@@ -1,7 +1,9 @@
 body {
     font-family: "Roboto", sans-serif;
     color: #212121;
-    background-color: #e5e5e5;
+    width: 1600px;
+    height: 2349px;
+    background: #ffffff;
 }
 .head {
     display: flex;
@@ -57,6 +59,7 @@ a {
     width: 254px;
     height: 16px;
     margin-top: 32px;
+    list-style-type: none;
 }
 .item-nav {
     display: inline-flex;
@@ -126,4 +129,90 @@ h1 {
     text-transform: uppercase;
 
     color: #ffffff;
+}
+
+.asset {
+    display: inline-flex;
+    margin-left: 215px;
+    width: 1170px;
+    height: 101px;
+    list-style-type: none;
+}
+.asset-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}
+h4 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.preferences-box {
+    width: 1170px;
+    height: 386px;
+    margin-left: 215px;
+    margin-bottom: 94px;
+    margin-top: 94px;
+    
+    
+}
+.preferences {
+    display: inline-flex;
+    justify-content: center;
+    margin: 5px;
+}
+.team-box {
+    width: 1600px;
+    height: 648px;
+    margin-bottom: 94px;
+    padding-top: 94px;
+    background: #f5f4fa;
+}
+.team-item {
+    display: flex;
+    justify-content: center;
+}
+.team-pic {
+    width: 270px;
+    height: 368px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+figcaption {
+    
+}
+
+.team-pic > p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
 }
