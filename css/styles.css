@@ -29,11 +29,14 @@ body {
     /* identical to box height */
     letter-spacing: 0.03em;
 }
-.logo-fcolor {
+.logo-bluecolor {
     color: #2196f3;
 }
-.logo-scolor {
+.logo-blackcolor {
     color: #212121;
+}
+.logo-whitecolor {
+    color: #ffffff;
 }
 a {
     text-decoration: none;
@@ -169,21 +172,16 @@ h2 {
     margin-left: 215px;
     margin-bottom: 94px;
     margin-top: 94px;
-    
-    
 }
 .preferences {
     display: inline-flex;
     justify-content: center;
-    
 }
 .team-box {
     width: 1600px;
     height: 648px;
-    margin-bottom: 94px;
     padding-top: 94px;
     background: #f5f4fa;
-
 }
 .team-item {
     display: flex;
@@ -213,4 +211,33 @@ h2 {
     letter-spacing: 0.03em;
 
     color: #212121;
+}
+
+.footer-logo {
+    /* WebStudio */
+    width: 145px;
+    height: 31px;
+    margin-left: 215px;
+
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+}
+#contact {
+    background-color: #2f303a;
+    color: rgba(255, 255, 255, 0.6);
+    width: 1600px;
+    height: 252px;
+    
+}
+address {
+    color: #ffffff;
+    margin-left: 215px;
+    text-decoration: none;
+}
+.footer-contact{
+    margin-left: 215px;
 }
