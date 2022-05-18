@@ -175,7 +175,7 @@ h2 {
 .preferences {
     display: inline-flex;
     justify-content: center;
-    margin: 5px;
+    
 }
 .team-box {
     width: 1600px;
@@ -183,10 +183,12 @@ h2 {
     margin-bottom: 94px;
     padding-top: 94px;
     background: #f5f4fa;
+
 }
 .team-item {
     display: flex;
     justify-content: center;
+    list-style-type: none;
 }
 .team-pic {
     width: 270px;
