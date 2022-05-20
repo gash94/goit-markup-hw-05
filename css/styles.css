@@ -10,8 +10,8 @@ body {
     height: 80px;
     left: 0px;
     top: 0px;
-
     background: #ffffff;
+    border-bottom: 1px solid #ECECEC;
 }
 .logo > a {
     cursor: default;
@@ -214,6 +214,7 @@ h2 {
 
 .filter {
     text-align: center;
+    margin-top: 94px;
 }
 .filter-button:active,
 .filter-button:hover,
