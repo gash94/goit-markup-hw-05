@@ -1,8 +1,6 @@
 body {
     font-family: "Roboto", sans-serif;
     color: #212121;
-    width: 1600px;
-    height: 2349px;
     background: #ffffff;
 }
 .head {
@@ -15,18 +13,18 @@ body {
 
     background: #ffffff;
 }
+.logo > a {
+    cursor: default;
+}
 .logo {
-    /* WebStudio */
     width: 145px;
     height: 31px;
     top: 24px;
     margin-left: 215px;
-
     font-family: "Raleway";
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-    /* identical to box height */
     letter-spacing: 0.03em;
 }
 .logo-bluecolor {
@@ -178,13 +176,14 @@ h2 {
     justify-content: center;
 }
 .team-box {
+    text-align: center;
+    padding-top: 94px;
     width: 1600px;
     height: 648px;
-    padding-top: 94px;
     background: #f5f4fa;
 }
 .team-item {
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     list-style-type: none;
 }
@@ -213,6 +212,75 @@ h2 {
     color: #212121;
 }
 
+.filter {
+    text-align: center;
+}
+.filter-button:active,
+.filter-button:hover,
+.filter-button:focus {
+    width: 121px;
+    height: 38px;
+    color: #ffffff;
+    background: #2196f3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border: 0px;
+    cursor: pointer;
+}
+.filter-button {
+    width: 114px;
+    height: 38px;
+    margin-right: 8px;
+    margin-bottom: 50px;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    background: #f5f4fa;
+    border-radius: 4px;
+    border: 0px;
+}
+
+.portfolio {
+    width: 1170px;
+    height: 1360px;
+}
+.item-portfolio {
+    text-align: center;
+    width: 370px;
+    height: 404px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    list-style-type: none;
+    background: #ffffff;
+    border: 1px solid #eeeeee;
+}
+.item-portfolio > h3 {
+    padding-left: 24px;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+.item-portfolio > p {
+    padding-left: 24px;
+    font-weight: 400;
+    font-size: 16px;
+
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.line {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
 .footer-logo {
     /* WebStudio */
     width: 145px;
@@ -227,17 +295,18 @@ h2 {
     letter-spacing: 0.03em;
 }
 #contact {
+    padding-top: 60px;
     background-color: #2f303a;
     color: rgba(255, 255, 255, 0.6);
     width: 1600px;
     height: 252px;
-    
 }
 address {
     color: #ffffff;
     margin-left: 215px;
     text-decoration: none;
+    font-style: normal;
 }
-.footer-contact{
+.footer-contact {
     margin-left: 215px;
 }
