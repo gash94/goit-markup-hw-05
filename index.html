@@ -15,8 +15,8 @@
         <title>WebStudio</title>
     </head>
     <body>
-        <header class="head container">
-            
+        <header class="head">
+            <div class="container">
                 <h3 class="logo">
                     <a href="./index.html" class="link"
                         ><span class="logo-bluecolor">Web</span
@@ -50,14 +50,19 @@
                         >
                     </li>
                 </ul>
-            
+            </div>
         </header>
+
         <main>
             <section class="banner-main">
-                <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-                <button class="banner-main-button" type="button">
-                    <span class="banner-main-button-text">Zamów usługę</span>
-                </button>
+                <div class="container">
+                    <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+                    <button class="banner-main-button" type="button">
+                        <span class="banner-main-button-text"
+                            >Zamów usługę</span
+                        >
+                    </button>
+                </div>
             </section>
 
             <section class="container">
@@ -89,10 +94,10 @@
                 </ul>
             </section>
 
-            <section class="section pref">
+            <section class="section section-pref">
                 <div class="container">
                     <h2>Czym się zajmujemy</h2>
-                    <ul>
+                    <ul class="pref">
                         <li class="pref-item">
                             <img
                                 src="images/box1.jpg"
@@ -173,7 +178,7 @@
                 </div>
             </section>
         </main>
-        <footer id="contact" class="section">
+        <footer id="contact" class="section-footer">
             <div class="container contact">
                 <h3 class="footer-logo">
                     <span class="logo-bluecolor">Web</span
@@ -186,11 +191,7 @@
                             >info@example.com</a
                         >
                     </li>
-                    <li>
-                        <a href="tel:+4811111111" class="link"
-                            >+48 111 111 111</a
-                        >
-                    </li>
+                    <li><a href="tel:+48111111111" class="link">+48 111 111 111</a></li>
                 </ul>
             </div>
         </footer>
