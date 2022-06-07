@@ -14,6 +14,7 @@
     --brand--third-color: #2f303a;
     --text-main-color: #212121;
 }
+
 body {
     text-align: center;
     font-family: "Roboto", sans-serif;
@@ -22,6 +23,17 @@ body {
     margin-left: -15px;
     margin-right: -15px;
 }
+
+.activepage::after {
+    content: "";
+    display: block;
+    position: relative;
+    border-top: 4px solid var(--brand-main-color);
+    border-radius: 2px;
+    top: 29px;
+
+}
+
 .container {
     width: 1200px;
     margin: 0 auto;
