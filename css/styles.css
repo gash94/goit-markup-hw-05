@@ -31,12 +31,10 @@ body {
     border-top: 4px solid var(--brand-main-color);
     border-radius: 2px;
     top: 29px;
-
 }
 
 *:hover,
-*:focus, 
-{
+*:focus {
     transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
@@ -133,8 +131,12 @@ body {
 .banner-main {
     min-height: 600px;
     display: flex;
-    background-image:linear-gradient(0deg, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 100%),
-     url("../images/banner.jpg");   
+    background-image: linear-gradient(
+            0deg,
+            rgba(47, 48, 58, 0.4) 0%,
+            rgba(47, 48, 58, 0.4) 100%
+        ),
+        url("../images/banner.jpg");
     background-size: 1600px;
     background-repeat: no-repeat;
     background-position: center;
@@ -356,8 +358,6 @@ h2 {
 .filter-button:active,
 .filter-button:hover,
 .filter-button:focus {
-    
-    
     color: var(--brand-second-color);
     background: var(--brand-main-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -456,11 +456,12 @@ h2 {
 .portfolio-item:active,
 .portfolio-item:hover,
 .portfolio-item:focus {
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 /* footer */
 .footer-logo {
-    text-align:left;
+    text-align: left;
     font-family: "Raleway";
     font-weight: 700;
     font-size: 26px;
@@ -523,14 +524,13 @@ address {
     justify-content: space-between;
 }
 .icon-footer {
-    
     fill: var(--brand-second-color);
     --color3: rgba(255, 255, 255, 0.1);
 }
 .icon-footer:active,
 .icon-footer:hover,
-.icon-footer:focus{
-    --color3: var(--brand-main-color)
+.icon-footer:focus {
+    --color3: var(--brand-main-color);
 }
 
 .footer-social h3 {
