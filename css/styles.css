@@ -6,6 +6,7 @@
     vertical-align: baseline;
     text-decoration: none;
     outline: 0;
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 :root {
@@ -20,22 +21,6 @@ body {
     font-family: "Roboto", sans-serif;
     color: var(--text-main-color);
     background: var(--brand-second-color);
-    margin-left: -15px;
-    margin-right: -15px;
-}
-
-.activepage::after {
-    content: "";
-    display: block;
-    position: relative;
-    border-top: 4px solid var(--brand-main-color);
-    border-radius: 2px;
-    top: 29px;
-}
-
-*:hover,
-*:focus {
-    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .container {
@@ -67,6 +52,7 @@ body {
 .link:hover,
 .link:focus {
     color: var(--brand-main-color);
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 /* header */
@@ -95,6 +81,7 @@ body {
     display: flex;
     list-style: none;
 }
+
 .nav-menu-item {
     font-weight: 500;
     font-size: 14px;
@@ -102,6 +89,17 @@ body {
     letter-spacing: 0.02em;
     color: #212121;
     margin-right: 46px;
+}
+
+.activepage::after {
+    content: "";
+    display: block;
+    position: relative;
+    border-top: 4px solid var(--brand-main-color);
+    border-radius: 2px;
+    margin-bottom: -4px;
+    top: 27px;
+    left: 0;
 }
 
 .head-contact {
@@ -126,7 +124,10 @@ body {
 .icon-contact:hover,
 .icon-contact:focus {
     --color5: var(--brand-main-color);
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
+
+
 /* banner */
 .banner-main {
     min-height: 600px;
@@ -330,6 +331,7 @@ h2 {
 }
 .icon-team {
     fill: #afb1b8;
+    --color3:var(--brand-second-color);
     margin-top: 16px;
     margin-bottom: 18px;
 }
@@ -339,7 +341,15 @@ h2 {
 .icon-team:focus {
     fill: var(--brand-second-color);
     --color3: var(--brand-main-color);
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
+.team-item-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
 /* Nasi klienci */
 .client {
     display: flex;
@@ -362,11 +372,11 @@ h2 {
 
 .client-item:hover svg {
     fill: var(--brand-main-color);
-    border-color: var(--brand-main-color);
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .client-item:hover {
-    fill: var(--brand-main-color);
     border-color: var(--brand-main-color);
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 /* Portfolio */
@@ -387,6 +397,7 @@ h2 {
     border-radius: 4px;
     border: 0px;
     cursor: pointer;
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .filter-button {
     width: 114px;
@@ -436,6 +447,7 @@ h2 {
 
 .portfolio-item:hover .overlay {
     transform: translateY(0);
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .overlay {
     position: absolute;
@@ -518,6 +530,7 @@ h2 {
 .portfolio-item:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
         1px 4px 6px rgba(0, 0, 0, 0.16);
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 /* footer */
 .footer-logo {
@@ -578,11 +591,10 @@ address {
     width: 206px;
     height: 80px;
     list-style: none;
-}
-.footer-social li {
-    display: flex;
+    display: inline-flex;
     justify-content: space-between;
 }
+
 .icon-footer {
     fill: var(--brand-second-color);
     --color3: rgba(255, 255, 255, 0.1);
@@ -591,9 +603,10 @@ address {
 .icon-footer:hover,
 .icon-footer:focus {
     --color3: var(--brand-main-color);
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
-.footer-social h3 {
+.social h3 {
     text-align: left;
     font-family: "Roboto";
     font-style: normal;
@@ -657,4 +670,6 @@ address {
 }
 .is-hidden .modal {
     transform: translate(-100%);
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
+
