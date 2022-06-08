@@ -169,7 +169,6 @@ h1 {
     border-radius: 4px;
     border: 0px;
     cursor: pointer;
-    
 }
 .banner-main-button-text {
     font-family: "Roboto";
@@ -424,7 +423,7 @@ h2 {
 .portfolio-item {
     position: relative;
     max-width: 370px;
-    max-height: 404px;
+    max-height: 405px;
     margin: 15px;
     list-style-type: none;
     background: var(--brand-second-color);
@@ -464,17 +463,16 @@ h2 {
 }
 .portfolio-item-description {
     
-    width: 100%;
-    height: 100%;
+    z-index: 1001;
+    position: relative;
+    background-color: #fff;
+
     margin-top: -6px;
     list-style: none;
     border-left: 1px solid #eeeeee;
     border-right: 1px solid #eeeeee;
     border-bottom: 1px solid #eeeeee;
-    z-index: 1001;
-    position: relative;
-    background-color: #fff;
-
+    
 }
 .portfolio-item .portfolio-item-description h3 {
     padding-top: 20px;
@@ -627,12 +625,10 @@ address {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     width: 528px;
     min-height: 581px;
     background-color: var(--brand-second-color);
-    
-
 }
 
 .close-btn {
@@ -650,5 +646,11 @@ address {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-    
+}
+
+.icon-modal {
+    fill: var(--brand--third-color);
+    position: absolute;
+    top: 6px;
+    left: 5px;
 }
