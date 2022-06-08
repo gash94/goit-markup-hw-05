@@ -652,3 +652,6 @@ address {
     top: 6px;
     left: 5px;
 }
+.is-hidden .modal {
+    transform: translate(-100%);
+}
