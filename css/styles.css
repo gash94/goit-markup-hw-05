@@ -422,12 +422,13 @@ h2 {
 }
 .portfolio-item {
     position: relative;
-    max-width: 370px;
-    max-height: 405px;
+    width: 370px;
+    height: 404px;
     margin: 15px;
     list-style-type: none;
     background: var(--brand-second-color);
     overflow: hidden;
+    cursor: pointer;
 }
 .portfolio-item > img {
     object-fit: cover;
@@ -463,9 +464,11 @@ h2 {
 }
 .portfolio-item-description {
     z-index: 1001;
-    position: relative;
+    position: absolute;
     background-color: #fff;
-
+    bottom: 0;
+    left: 0;
+    width: 100%;
     margin-top: -6px;
     list-style: none;
     border-left: 1px solid #eeeeee;
