@@ -345,7 +345,7 @@ h2 {
 .icon-team:focus {
     fill: var(--brand-second-color);
     --color3: var(--brand-main-color);
-    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+    
 }
 .team-item-social {
     margin-top: 16px;
