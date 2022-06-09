@@ -336,8 +336,7 @@ h2 {
 .icon-team {
     fill: #afb1b8;
     --color3:var(--brand-second-color);
-    margin-top: 16px;
-    margin-bottom: 18px;
+
 }
 
 .icon-team:active,
