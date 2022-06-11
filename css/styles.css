@@ -655,9 +655,11 @@ address {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.2);
-    
     transition: var(--transition);
-    transition-property: transform;
+    transition-property: transform, visibility, opacity;
+    
+    
+    
 }
 .modal {
     position: absolute;
@@ -682,11 +684,14 @@ address {
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     cursor: pointer;
+    
+    
 }
 .is-hidden {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
+    
 }
 
 .icon-modal {
