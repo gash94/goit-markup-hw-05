@@ -91,15 +91,18 @@ body {
     color: #212121;
     margin-right: 46px;
 }
+a.link.activepage {
+    position: relative;
+}
 
 .activepage::after {
     content: "";
     display: block;
-    position: relative;
+    position: absolute;
     border-top: 4px solid var(--brand-main-color);
     border-radius: 2px;
-    margin-bottom: -4px;
-    top: 27px;
+    width: 100%;
+    bottom:-33px;
     left: 0;
 }
 
